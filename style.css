@@ -1,0 +1,16 @@
+body{
+    background-color: peachpuff;
+    font-family: 'Sofia Sans', sans-serif;
+  }
+  h1{
+    color: #e29079;
+    text-align: center;
+  }
+  
+  #text-style, #font, #color-theme {
+    border: 2px dashed #e29079;
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 10px;
+    background-color: white;
+  }
