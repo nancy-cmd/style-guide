@@ -2,40 +2,45 @@ body{
     background-color: rgba(250, 227, 206, 0.506);
     font-family: 'Sofia Sans', sans-serif;
   }
+  main {
+    margin: auto 0;
+  }
   h1{
     color: #e29079;
     text-align: center;
   }
+  h2 {
+    text-align: center;
+  }
   
   #text-style, #font, #color-theme {
-    border: 2px dashed #e29079;
+    border: 8px dashed #e29079;
     max-width: 1000px;
     min-height: 200px;
-    margin: 10px;
+    margin: 80px;
+    padding: 20px;
     background-color: white;
+  }
+  .sec {
+   margin: auto 15%;
   }
 
   /*color palates*/
   #palate1, #palate2, #palate3 {
-    margin: 8px;
+    margin-left: 8px;
     display: inline-flex;
+    
   }
-  #palate2 {
-    position: relative;
-    left: 16%;
-  }
-  #palate3 {
-    position: relative;
-    left: 28%;
-  }
+  
 
   .circle {
-    border-radius: 50%;
+    
     width: 150px;
     height: 150px;
     margin: 2px;
-    background-color: blue;
+    border: 8px dashed white;
   }
+  
   .red1 {
     background-color: #4E051F;
   }
@@ -48,12 +53,43 @@ body{
   .red4 {
     background-color:#DC85A4;
   }
-  .green1 {background-color: #485605;}
-  .green2 {background-color: #6C7D19;}
-  .green3 {background-color: #E6FC7A;}
-  .green4 {background-color: #E2F293;}
+  .green1 {background-color: #07123A;}
+  .green2 {background-color: #172556;}
+  .green3 {background-color: #505F90;}
+  .green4 {background-color: #7A86AD;}
 
   .purple1 {background-color: #29073C;}
   .purple2 {background-color: #3E1557;}
   .purple3 {background-color: #BD75E5;}
   .purple4 {background-color: #9169A7;}
+
+  span {
+    font-family: 'Explora', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    color: #e29079;
+  }
+  .h1-heading {
+    font-weight: 500;
+    font-size: 26px;
+    font-family: "Roboto";
+  }
+  .sub-heading {
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .para-font {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .newspaper-heading {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Playfair Display";
+  }
+  p {
+    font-size: 20px;
+    color: wheat;
+    text-align: center;
+  }
