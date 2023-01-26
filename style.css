@@ -12,6 +12,9 @@ body{
   h2 {
     text-align: center;
   }
+  table {
+    width: 100%;
+  }
   
   #text-style, #font, #color-theme {
     border: 8px dashed #e29079;
@@ -95,6 +98,23 @@ body{
   }
 
   /*@media*/
-  @media screen {
+  @media screen and (max-width: 600px){
+    .circle {
     
+        width: 50px;
+        height: 50px;
+        margin: 1px;
+        border: 4px dashed white;
+      }
+      h2 span {
+        font-family: 'Explora', cursive;
+        font-size: 44px;
+       
+      }
+      p {
+        font-size: 10px;
+      }
+      .sec {
+        margin: auto 3%;
+       }
   }
