@@ -18,7 +18,7 @@ body{
   
   #text-style, #font, #color-theme {
     border: 8px dashed #e29079;
-    max-width: 1000px;
+    max-width: 900px;
     min-height: 200px;
     margin: 80px;
     padding: 20px;
@@ -98,11 +98,11 @@ body{
   }
 
   /*@media*/
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 767px){
     .circle {
     
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 90px;
         margin: 1px;
         border: 4px dashed white;
       }
@@ -112,9 +112,30 @@ body{
        
       }
       p {
-        font-size: 10px;
+        font-size: 15px;
       }
       .sec {
-        margin: auto 3%;
+        margin: auto 50px;
+       }
+  }
+  @media screen and (min-width: 767px) and (max-width: 1023px){
+    .circle {
+    
+        width: 100px;
+        height: 100px;
+        margin: 1px;
+        border: 6px dashed white;
+      }
+      
+      h2 span {
+        font-family: 'Explora', cursive;
+        font-size: 54px;
+       
+      }
+      p {
+        font-size: 15px;
+      }
+      .sec {
+        margin: 10px 50px;
        }
   }
